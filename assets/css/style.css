@@ -147,13 +147,14 @@ body{
 }
 
 .row .text-title{
-    font-size: 25px;
+    font-size: 30px;
     margin: 15px 0;
 }
 
 .row p{
     line-height: 25px;
     padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .container .row .profile-info{
@@ -165,11 +166,12 @@ body{
     display: block;
     list-style-type: none;
     padding: 0 0 1.5rem;
+    font-size: 20px;
 }
 .profile-info ul li label{
     display: block;
     max-width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 5px;
     font-weight: 700;
     opacity: .8;
