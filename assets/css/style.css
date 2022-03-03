@@ -8,6 +8,39 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.menu{
+    display: inline;
+    height: 8vh;
+    width: 100%;
+    background: #0487CC;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu img{
+    height: 8vh;
+    float: left;
+    padding-right: 20px;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0 40px;
+    line-height: 8vh;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.active, .menu ul li a:hover{
+    text-decoration: line-through;
+}
+
+
+
 #home .img-screen{
     background-image: url(../image/hero-1.jpg);
     background-attachment: fixed;
@@ -29,11 +62,13 @@ body{
     width: 100%;
     height: 30vh;
     text-align: center;
-    position: absolute;
-    top: 40%;
+    position: relative;
+    top: -50%;
+    transform: translateY(-50%);
 }
 
 .img-screen .container h5{
+    font-family: 'poppins-bold',sans-serif;
     font-size: 2.3rem;
     color: white;
 }
@@ -114,7 +149,7 @@ body{
     display: table;
     padding-top: 30px;
     height: auto;
-    padding-bottom: 210px;
+    padding-bottom: 100px;
 }
 
 .content-about .avatar-info{
