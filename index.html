@@ -14,7 +14,21 @@
     <meta property="og:image" content="https://thangtcm.github.io/card/assets/img/avatar.jpg" >
     <title>Trần Cao Minh Thắng</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#scrollspy-nav" data-offset="110">
+    
+    <div class="menu">
+        <div class="menu-background">
+            <img src="./assets/image/signature.png" alt="">
+            <nav id="scrollspy-nav" class="navbar  bg-dark fixed-top">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#information">Peronal Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     <div id="home">
         <section class="img-screen">
             <div class="screen-overlay"></div>
@@ -23,8 +37,9 @@
                 <h1>Trần Cao Minh Thắng</h1>
                 <p>I am a <span class="danh_chu" data-thoiGianDoi="3000" data-chu='["Writer","Front End Developer","Creative Lover","Blogger"]'></span></p>
                 <script src="./assets/jS/hieu_ung_chu.js"></script>
+                
                 <div class="icon-link">
-                    <a href="">
+                    <a href="https://www.facebook.com/TranCaoMinhThang.VN">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
                     <a href="">
@@ -138,6 +153,7 @@
             <div class="button-entice">
                 <a href="">Hire me</a>
             </div>
+            <div class="clear"></div>
         </div>
     </section>
     <div id="information">
@@ -208,6 +224,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="cross"></div>
                     <div class="profile-skill">
                         <h4 class="text-title font-normal">Experience</h4>
                         <div class="sep2"></div>
@@ -247,13 +264,13 @@
           <h3>Website<span>Thang</span></h3>
   
           <p class="footer-links">
-            <a href="#" class="link-1">Home</a>
+            <a href="#home" class="link-1 smooth-scroll">Home</a>
           
-            <a href="#about">About</a>
+            <a href="#about" class="smooth-scroll">About</a>
             
-            <a href="#information">Personal Info</a>
+            <a href="#information" class="smooth-scroll">Personal Info</a>
             
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="smooth-scroll" >Contact</a>
           </p>
   
           <p class="footer-company-name">Company Name © 2022</p>
@@ -287,15 +304,20 @@
   
           <div class="footer-icons">
   
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
   
           </div>
   
         </div>
   
       </footer>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="./assets/jS/crollmove.js" ></script>
+    <script src="./assets/jS/test.js"></script>
 </body>
 </html>
