@@ -18,7 +18,7 @@ body{
 }
 
 .menu img{
-    height: 8vh;
+    width: 30vh;
     float: left;
     padding-right: 20px;
 }
@@ -35,11 +35,22 @@ body{
     font-size: 3vh;
 }
 
+.menu .button-menu{
+    display: none;
+    float : right;
+    line-height: 12vh;
+    padding-right: 8vh;
+    font-size: 6vh;
+    color: white;
+}
+
+.show{
+    display: block;
+}
+
 .active, .menu ul li a:hover{
     text-decoration: line-through;
 }
-
-
 
 #home .img-screen{
     background-image: url(../image/hero-1.jpg);
@@ -618,157 +629,3 @@ body{
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
-  .footer-distributed{
-    font: bold 14px sans-serif;
-  }
-
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .footer-distributed .footer-center i{
-    margin-left: 0;
-  }
-
-}
-
-
-@media screen and (min-width: 800px) {
-    .container .row .profile-skill{
-        width: 45%;
-        float: right;
-    }
-    .container .row .profile-info{
-        width: 45%;
-        float: left;
-    }
-
-    .row .contact{
-        padding: 30px 0;
-    }
-
-    .row .contact a{
-        font-size: 30px;
-        padding: 15px 40px;
-    }
-
-    .cross{
-        display: none;
-    }
-
-}
-
-@media all and (max-width: 700px){
-    .container .row .profile-skill, .container .row .profile-info{
-        width: 100%;
-        padding: 0 0;
-    }
-    .row .text-title{
-        text-align: left;
-        font-size: 25px;
-    }
-    .section-about .container .content-about{
-        padding-bottom: 50px;
-    }
-    .img-screen .container h1{
-        font-size: 2.4rem ;
-    }
-    .img-screen .container h5{
-        font-size: 1.3rem;
-    }
-    .img-screen .container p{
-        font-size: 1.5rem;
-    }
-    .container .icon-link a{
-        font-size: 1rem;
-        margin: 0 2px;
-        height: 2rem;
-        width: 2rem;
-        line-height: 2rem;
-    }
-    .content-about p{
-        display: block;
-        padding-left: 0;
-        font-size: 20px;
-        opacity: 1;
-        padding-top: 40px;
-    }
-    .content-about .avatar-info{
-        margin: 0 auto;
-    }
-    .section-about .container .title{
-        padding: 5px 0;
-    }
-    .container .title h1{
-        font-size: 35px;
-        margin-bottom: 0;
-    }
-    .container .title h3{
-        font-size: 25px;
-        opacity: 1;
-    }
-
-    .row p{
-        line-height: 1.6;
-        font-size: 18px;
-    }
-
-    .profile-info ul li{
-        font-size: 18px;
-    }
-
-    .profile-skill .col .skill {
-        padding-top: 15%;
-    }
-
-    .skill li em{
-        color: red;
-        font-weight: 500;
-    }
-
-    .row .contact a{
-        font-size: 25px;
-        padding: 15px 20px;
-    }
-
-    .row .contact{
-        padding: 0 0;
-    }
-
-    .container-entice .button-entice a{
-        font-size: 1.3rem;
-        padding: 10px 10px;
-    }
-
-    .parallax .container-entice .text-entice{
-        font-size: 1.5em;
-    }
-
-    .parallax .container-entice .button-entice{
-        padding-top: 15px;
-    }
-
-    .row .content-info h4{
-        font-size: 15px;
-    }
-
-    .row .timeline{
-        font-size: 15px;
-    }
-
-    .section-info .container .row::before{
-        display: none;
-    }
-
-    .cross{
-        display: block;
-    }
-}
