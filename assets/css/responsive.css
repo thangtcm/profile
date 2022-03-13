@@ -80,20 +80,21 @@
           padding-bottom: 50px;
       }
       .img-screen .container h1{
-          font-size: 2.4rem ;
+          font-size: 5vh ;
       }
       .img-screen .container h5{
-          font-size: 1.3rem;
+          font-size: 3vh;
+          font-weight: 100;
       }
       .img-screen .container p{
-          font-size: 1.5rem;
+          font-size: 3.5vh;
       }
       .container .icon-link a{
-          font-size: 1rem;
+          font-size: 2vh;
           margin: 0 2px;
-          height: 2rem;
-          width: 2rem;
-          line-height: 2rem;
+          height: 4vh;
+          width: 4vh;
+          line-height: 4vh;
       }
       .content-about p{
           display: block;
