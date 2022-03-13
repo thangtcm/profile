@@ -13,8 +13,22 @@
 // buttonmenu.addEventListener('click', showMenu);
 
 
+var x = document.getElementById("scrollspy-nav");
+
+$(window).resize(function(){
+ 
+  var width = $(window).width();
+  console.log(width);
+  if (width <= 880){
+    x.style.display = "none";
+  }
+  else{
+    x.style.display = "block";
+  }
+});
+
 function myFunction() {
-  var x = document.getElementById("scrollspy-nav");
+  
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
